@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>flymobile.js</title>
+	<link rel="stylesheet" type="text/css" href="./dist/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./dist/css/flymobile.css">
+	<link rel="stylesheet" type="text/css" href="./dist/css/animate.css">
+	<style>
+	</style>
+	<script src="./dist/js/jquery-2.1.4.min.js"></script>
+	<script src="./dist/js/flymobile.js"></script>
+</head>
+<body>
+	<div class="fly-main">
+		<div class="fly-wrapper">
+			<div class="fly-container">
+				<section class="fly-slide fly-slide1">
+				1
+					<img src="./dist/images/ele.png" class="ele ele1 animated lightSpeedIn" >
+				</section>
+				<section class="fly-slide fly-slide2">
+				2
+					<img src="./dist/images/ele.png" class="ele ele1 animated lightSpeedIn">
+				</section>
+				<section class="fly-slide fly-slide3">
+				3
+					<img src="./dist/images/ele.png" class="ele ele1 animated lightSpeedIn">
+				</section>
+				<section class="fly-slide fly-slide4">
+				4
+					<img src="./dist/images/ele.png" class="ele ele1 animated lightSpeedIn">
+				</section>
+				<section class="fly-slide fly-slide5">
+				5
+					<img src="./dist/images/ele.png" class="ele ele1 animated lightSpeedIn">
+				</section>
+				<section class="fly-slide fly-slide6">
+				6
+					<img src="./dist/images/ele.png" class="ele ele1 animated lightSpeedIn">
+				</section>
+			</div>
+		</div>
+	</div>
+	<script>
+		new Flymobile(".fly-container",{
+			onSlideChangeEnd:function(fly){
+			}
+		});
+	</script>
+</body>
+</html>
+
+
+
+
